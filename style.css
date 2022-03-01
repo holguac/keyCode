@@ -1,0 +1,52 @@
+@font-face {
+    src: url(Fonts/DIN2014-ExtraLight.ttf);
+    font-family: din;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: din;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+   
+}
+
+/* ul, p, a, input, button {
+    font-size: 24px;
+    font-weight: 700;
+} */
+
+/* span {
+    font-size: 48px;
+    font-weight: 900;
+} */
+
+/* input {
+    padding: 10px;
+} */
+
+/* img {
+    display: block;
+} */
+
+/* button {
+    background-color: goldenrod;
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+} */
+
+/* button:hover {
+    color: orangered;
+} */
