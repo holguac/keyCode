@@ -5,48 +5,56 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #533B4D;
+    font-family: din;
 }
 
 body {
-    font-family: din;
-    color: black;
+    width: 100w;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2A77F;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 900;
+#header {
+    font-size: 60px;
 }
 
-h1 {
-    font-size: 48px;
-    text-align: center;
-   
+#number {
+    display: flex;
+    align-items: center;
+    height: 10%;
 }
 
-/* ul, p, a, input, button {
-    font-size: 24px;
-    font-weight: 700;
-} */
+#numDisplay {
+    font-size: 40px;
+}
 
-/* span {
-    font-size: 48px;
-    font-weight: 900;
-} */
+#container {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* input {
-    padding: 10px;
-} */
+#code, #key, #which {
+    flex-basis: 1;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
 
-/* img {
-    display: block;
-} */
-
-/* button {
-    background-color: goldenrod;
-    border: none;
-    padding: 10px;
-    margin-left: 40px;
-} */
-
-/* button:hover {
-    color: orangered;
-} */
+#desc {
+    font-size: 20px;
+    color: #533B4D;
+}

@@ -9,8 +9,8 @@ document.addEventListener("keydown", (event) => {
     let keyCode = event.code;
     let keyWhich = event.which;
 
-    numDisplay.innerHTML = `<p class ="pressedBtn"> ${keyDown} was pressed</p>`
-    numKey.innerHTML = `<p class ="pressedBtn"> ${keyDown} was pressed</p>`
-    numCode.innerHTML = `<p class ="pressedBtn"> ${keyCode} was pressed</p>`
-    numWhich.innerHTML = `<p class ="pressedBtn"> ${keyWhich} was pressed</p>`
+    numDisplay.innerHTML = `<p class ="pressedBtn"> ${keyDown } WAS PRESSED</p>`
+    numKey.innerHTML = `<p class ="pressedBtn"> ${keyDown } WAS PRESSED</p>`
+    numCode.innerHTML = `<p class ="pressedBtn"> ${keyCode } WAS PRESSED</p>`
+    numWhich.innerHTML = `<p class ="pressedBtn"> ${keyWhich } WAS PRESSED</p>`
 })
