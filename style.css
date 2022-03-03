@@ -23,16 +23,19 @@ body {
 
 #header {
     font-size: 60px;
+    font-weight: lighter;
+    padding-bottom: 20px;
 }
 
 #number {
     display: flex;
     align-items: center;
     height: 10%;
-}
+} 
 
 #numDisplay {
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: normal;
 }
 
 #container {
@@ -51,10 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 20px;
+    border: #533B4D;
 }
 
-#desc {
-    font-size: 20px;
-    color: #533B4D;
-}
